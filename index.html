@@ -4,8 +4,189 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<body class="p-8">
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 shadow-sm">
+                <div class="flex-1 flex items-center">
+                    <img class="h-8" src="assets/logo.png" alt="">
+                  <a class="text-2xl">Dev <span class="font-bold">Board</span></a>
+                </div>
+                <div class="flex-none">
+                  <div class="dropdown dropdown-end">
+                    <div class="flex gap-2 items-center">
+                        <input class="h-5 w-5" type="checkbox" name="" id="">
+                        <h2 class="font-bold text-2xl">23</h2>
+                    </div>
+                  </div>
+                  
+
+                  <div class="dropdown dropdown-end p-8">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <img src="assets/theme-btn.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </nav>
+
+    </header>
+
+    <main class="flex gap-4">
+      <section class="pt-14">
+
+        <div class="flex grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 items-center gap-14">
+
+          <div class="card bg-base-200 text-content w-auto">
+            <div class="flex h-28 w-80 items-center p-8">
+              <input class="h-5 w-5" type="checkbox" name="" id="">
+              <div class="px-4">
+                <p class="text-gray-600">Task Assigned </p>
+              <h2 class="font-bold text-2xl">06</h2>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card bg-primary text-primary-content w-auto overflow-hidden">
+            <div class="flex h-28 w-100 items-center p-8">
+              <img class="h-14 w-14" src="assets/board.png" alt="">
+              <p class="px-2">Discover Something <br> New Today!</p>
+            </div>
+          </div>
+
+          <div class="card bg-base-200 text-content w-auto">
+            <div class="flex h-28 w-80 items-center p-8">
+              <img class="px-4" src="assets/calender.png" alt="">
+              <div>
+                <p>Wed ,</p>
+              <h2>Mar 15 2025</h2>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+
+        <div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center pt-8">
+            <div class="rounded-lg overflow-hidden px-5 py-5 bg-base-200">
+              <div class="text-justify">
+                <button class="btn btn-soft bg-base-100">ShopEase</button>
+                <h2 class="font-bold text-2xl py-6">Fix Monile Button Issue</h2>
+                <p class="pt-4 text-gray-500 bg-base-100 rounded-lg p-4">Debug using Chrome <br> DevTools, check for overlapping</p>
+                <div class="">
+                  <p class="text-gray-500 pt-8 pb-2">Deadline</p>
+                  <h2 class="font-bold">21 March 2025</h2>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">ComPleted</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="rounded-lg overflow-hidden px-5 py-5 bg-base-200">
+              <div class="text-justify">
+                <button class="btn btn-soft bg-base-100">CloudSync</button>
+                <h2 class="font-bold text-2xl py-6">Add Dark Mode</h2>
+                <p class="pt-4 text-gray-500 bg-base-100 rounded-lg p-4">Store the user's preference in <br>localStorage, update CSS variables.</p>
+                <div class="">
+                  <p class="text-gray-500 pt-8 pb-2">Deadline</p>
+                  <h2 class="font-bold">21 March 2025</h2>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">ComPleted</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+
+            <div class="rounded-lg overflow-hidden px-5 py-5 bg-base-200">
+              <div class="text-justify">
+                <button class="btn btn-soft bg-base-100">SwiftPay</button>
+                <h2 class="font-bold text-2xl py-6">Optimize  Home page </h2>
+                <p class="pt-4 text-gray-500 bg-base-100 rounded-lg p-4">Debug using Chrome <br> DevTools, check for overlapping</p>
+                <div class="">
+                  <p class="text-gray-500 pt-8 pb-2">Deadline</p>
+                  <h2 class="font-bold">21 March 2025</h2>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">ComPleted</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+
+            <div class="rounded-lg overflow-hidden px-5 py-5 bg-base-200">
+              <div class="text-justify">
+                <button class="btn btn-soft bg-base-100">Meta</button>
+                <h2 class="font-bold text-2xl py-6">Add new emoji 🤲</h2>
+                <p class="pt-4 text-gray-500 bg-base-100 rounded-lg p-4">Debug using Chrome <br> DevTools, check for overlapping.</p>
+                <div class="">
+                  <p class="text-gray-500 pt-8 pb-2">Deadline</p>
+                  <h2 class="font-bold">21 March 2025</h2>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">ComPleted</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 5 -->
+
+            <div class="rounded-lg overflow-hidden px-5 py-5 bg-base-200">
+              <div class="text-justify">
+                <button class="btn btn-soft bg-base-100">Google LLC</button>
+                <h2 class="font-bold text-2xl py-6">Integrate OpenAI API </h2>
+                <p class="pt-4 text-gray-500 bg-base-100 rounded-lg p-4">Debug using Chrome <br> DevTools, check for overlapping.</p>
+                <div class="">
+                  <p class="text-gray-500 pt-8 pb-2">Deadline</p>
+                  <h2 class="font-bold">21 March 2025</h2>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">ComPleted</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 6 -->
+
+            <div class="rounded-lg overflow-hidden px-5 py-5 bg-base-200">
+              <div class="text-justify">
+                <button class="btn btn-soft bg-base-100">Glassdoar</button>
+                <h2 class="font-bold text-2xl py-6">Improve Job searching </h2>
+                <p class="pt-4 text-gray-500 bg-base-100 rounded-lg p-4">Debug using Chrome <br> DevTools, check for overlapping.</p>
+                <div class="">
+                  <p class="text-gray-500 pt-8 pb-2">Deadline</p>
+                  <h2 class="font-bold">21 March 2025</h2>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">ComPleted</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+
+        </div>
+      </section>
+      <section class="pt-14">
+        <div class="text-center bg-base-200 h-full w-auto">
+          <div class="flex gap-2 pb-8 px-8 pt-8">
+            <img class="h-8 w-8 pt-3" src="assets/activity.png" alt="">
+            <h4 class="text-xl">Activity Log</h4>
+          </div>
+          <button class="btn btn-primary">Clear History</button>
+        </div>
+      </section>
+
+    </main>
 </body>
 </html>
